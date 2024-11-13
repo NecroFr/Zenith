@@ -498,3 +498,15 @@ main {
     grid-template-columns: repeat(2, 300px);
   }
 }
+.card__link {
+	color: #ffffff;  /* Always white */
+	font-weight: bold;
+	font-size: 1.5em;  /* Increase size */
+	text-align: center;  /* Center text */
+	text-decoration: none;
+	display: inline;  /* Remove block display */
+}
+
+.card__link:hover {
+	color: #ffffff;  /* Keep hover color white */
+}
